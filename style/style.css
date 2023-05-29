@@ -202,6 +202,7 @@ opacity: 0.95;
      color:#3a6cf4;
 }
 @media (max-width:1023px) {
+    body{ font-size: 15px;}
     header{
         padding:12px 20px;
     }
@@ -214,11 +215,20 @@ opacity: 0.95;
     section{
         padding:80px 20px;
     }
-    .main-content h2 {
-        font-size:1em;
+    .main h2 {
+        font-size:1.2em;
     }
-    .main-content h3{
-        font: size 1.6em;
+    .main h2 span{
+        font-size: 1.5em;
+    }
+    .main h3{
+        font-size :0.9em;
+    }
+    .main .social-icons{
+        font-size: 0.9em;
+    }
+    .main-btn{
+        font-size:0.9em
     }
     .content {
         flex-direction: column;
@@ -230,37 +240,37 @@ opacity: 0.95;
 }
     @media (max-width:641px){
         body{
-            font-size:12px;
+            font-size:10px;
         }
-        .main h2{
-            font-size: 1.5em;
+        .main div h2{
+            font-size: 1.2em;
         }
-        .main h3{
+        .main div h3{
+            font-size:1.2em;
+        }
+        .main div h2 span{
             font-size:1.5em;
         }
-        .main h2 span{
-            font-size:1.6rem;
-        }
-        .main-content h2{
+         .main-content h2{
             font-size: 0.5em;
         }
         .main-content span{
             font-size: 0.6 em;
-        }
+        } 
         .main .social-icons{
             font-size: 1em;
         }
         .project-card .project-info{
             font-size: 1.5em;  }
             .project-title{
-                font-size: 0.65em;
+                font-size: 0.2em;
             }
               
         .main-content h3{
             font-size: 0.4em;
         }
         .main{
-            background-size:170px;
+            background-size:120px;
         }
         
     }
