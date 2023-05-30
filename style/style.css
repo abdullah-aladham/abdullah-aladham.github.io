@@ -208,12 +208,16 @@ opacity: 0.95;
     }
     .navigation a{
         padding-left:10px;
+        font-size:1.2em;
     }
     .title{
         font-size:1.8em;
     }
     section{
         padding:80px 20px;
+    }
+    .main{
+        background-size: 350px;
     }
     .main h2 {
         font-size:1.2em;
@@ -231,12 +235,18 @@ opacity: 0.95;
         font-size:0.9em
     }
     .content {
-        flex-direction: column;
+        flex-direction:column;
     align-items:center;
     }
     /* .main{
         background-position:right center;
     } */
+    .project-card .project-info{
+        font-size: 1.3em;  }
+        .project-title{
+            font-size: 0.65em;
+        }
+
 }
     @media (max-width:641px){
         body{
@@ -270,20 +280,36 @@ opacity: 0.95;
             font-size: 0.4em;
         }
         .main{
-            background-size:120px;
+            background-size:250px;
         }
+        .content{
+            flex-direction:column;
+        }
+        .project-title{
+            font-size: 0.59em;
+           }
+           .project-card .project-image img{
+            width: 100%;
+           }
+           .card .info p{
+            font-size: 1.2em;
+           }
+           .footer{
+            font-size: 1.2em;
+           }
         
     }
     @media (max-width:300px){
         body{font-size:8px;}
+        .navigation{font-size: 1.2em;}
         .main-content h2{
-            font-size: 0.8em;
+            font-size: 2em;
         }
         .main-content h3{
             font-size: 1.4em;
         }
         .main{
-            background-size:75px;
+            background-size:130px;
         }
         .navigation a{
             font-size: 0.8em;
@@ -296,13 +322,39 @@ opacity: 0.95;
             font: size 0.77em;
         }
         .main div h3{
-            font-size: 0.75em;
+            font-size: 0.8em;
         }
         .content .card {
             font-size:0.7em;
         }
         .content .card .info {
-            font-size:0.7em;
+            font-size:1.5em;
         }
+       
+       .contact{
+        flex-direction:column;
+       }
+       .navigation a{
+        font-size: 0.7em;
+       }
+       .project-title{
+        font-size: 0.59em;
+       }
+       .project-card .project-image img{
+        width: 100%;
+       }
+       .card .info p{
+        font-size: 0.7em;
+       }
+       .footer{
+        font-size: 0.6em;
+       }
+         .social-icons a i{
+        font-size: 0.9em;
+       }  
+       .main-btn{
+        font-size: 0.7em;
+       }
+       
     }
 
