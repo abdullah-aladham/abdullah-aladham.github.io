@@ -46,6 +46,8 @@ section{
     background: url(../images/background.jpg) no-repeat ;
     background-size:contain;
     background-position:  right center;
+background-color: #fff;
+background-attachment: fixed;
 }
 .main h2{
     font-size: 1.4em;
@@ -128,6 +130,7 @@ font-weight:500;
     font-weight: 700;
     margin:10px;
 }
+
 .projects{
     background-color: #f0f0f0;
 }
