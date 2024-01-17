@@ -36,8 +36,13 @@ header {
   font-weight: 700;
   font-size: 1.8em;
 }
+.navigation {
+  position: inherit;
+  padding: 50px;
+  right: 10px;
+}
 .navigation a {
-  color: #3a6cf4;
+  color: black;
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 500;
@@ -46,19 +51,22 @@ header {
 .navigation i {
   padding: 8px;
 }
-.navigation #dark-mode {
+/* .navigation #dark-mode {
   width: 30px;
   cursor: pointer;
   color: #3a6cf4;
   padding-left: 30px;
   font-size: 1.1em;
   font-weight: 500;
-}
+} */
 /* .navigation #dark-mode:hover {
   color: purple;
 } */
 .navigation a:hover {
   color: purple;
+}
+.navigation a:active {
+  color: #d1884f;
 }
 section {
   padding: 100px 200px;
@@ -74,17 +82,27 @@ section {
   background-color: #fff;
   background-attachment: fixed;
 }
-.main h2 {
+.main #article {
   font-size: 1.4em;
   font-weight: 500;
 }
-.main h2 span {
+.main #article h2 {
+  font-weight: 400;
+}
+.main #greet {
   display: inline-block;
   margin-top: 10px;
-  color: #008eb1;
-  font-size: 2em;
+  color: #008db0;
+  font-size: 2rem;
   font-weight: 600;
 }
+.main #Engineer {
+  display: inline-block;
+  margin-top: 10px;
+  color: #d1884f;
+  font-weight: 600;
+}
+
 .main h3 {
   font-size: 1.5em;
   font-weight: 700;
@@ -94,7 +112,7 @@ section {
 }
 .main-btn {
   color: #f0f0f0;
-  background-color: #3a6cf4;
+  background-color: #028aa9;
   text-decoration: none;
   font-size: 1.1em;
   font-weight: 600;
@@ -106,13 +124,18 @@ section {
   transition: 0.7s ease;
 }
 .main-btn:hover {
-  background-color: #0a49f6;
+  background-color: #028aa9;
   transform: scale(1.1);
   color: white;
 }
-Proj-btn {
+.Proj-btn {
   border-color: #61b0c5;
-  transoform: scale(1.1);
+  padding: 2px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.93rem 2rem;
+
+  /* transoform: scale(1.1); */
 }
 .social-icons a {
   color: #3a6cf4;
@@ -252,6 +275,7 @@ Proj-btn {
   }
   .main h2 {
     font-size: 1.2em;
+    font-weight: 400;
   }
   .main h2 span {
     font-size: 1.5em;
@@ -390,3 +414,4 @@ Proj-btn {
     font-size: 0.7em;
   }
 }
+/*Thanks for reaching the end this code is built by Abdullah azzam aladham*/
