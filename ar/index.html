@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar"  id="htmlPage">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,8 @@
     <!-- <link rel="stylesheet" href="style/css/all.min.css"> -->
      <!-- <link rel="stylesheet" href="style/css/all.min.css"> -->
      <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-<link rel="stylesheet" href="style/fontawesome-free-6.7.2-web/css/all.min.css">
+<!-- <link rel="stylesheet" href="style/fontawesome-free-6.7.2-web/css/all.min.css"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <!--fonts from google-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,9 +17,9 @@
    <link rel="stylesheet" href="style/style.css">
 <title>Abdullah Aladham | Main Page</title>
 </head>
-<body>
+<body id="body">
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light " id="navbar" >
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id="navbar" >
             <div class="container d-flex flex-row bd-highlight">
               
             <a class="navbar-brand" href="index.html" id="logo">Abdullah</a>
@@ -36,13 +37,13 @@
             <div class="container">
               
               
-                <ul class="navbar-nav ms-10 mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-10 mb-2 mb-lg-0 justify-content-end">
                     <a class="navbar-brand"></a>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">الصفحة الرئيسية</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Experience</a>
+                    <a class="nav-link" href="#">الخبرات</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" 
@@ -53,14 +54,22 @@
                       <i class="fa-light fa-chevron-down"></i>
                      </a>
                     <ul class="dropdown-menu dropdown-menu-lg-start">
-                      <li><a class="dropdown-item " href="#"><i class="fa-solid fa-layer-group"></i><span class="p-1">projects</span></a></li>
-                      <li><a class="dropdown-item" href="user-membership/signup.html"><i class="fa-solid fa-phone"></i> <span class="p-2">Contact Us</span></a></li>
+                      <li><a class="dropdown-item " href="#"><i class="fa-solid fa-layer-group"></i><span class="p-1">المشاريع</span></a></li>
+                      <li><a class="dropdown-item" href="#Contactus"><i class="fa-solid fa-phone"></i> <span class="p-2">اتصل بنا</span></a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li ><a  class="dropdown-item" href="ar/index.html">العربية</a></li>
+                      <li ><a  class="dropdown-item" href="../index.html">EN</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="Notifications/Notifications.html">  <span>🌙 <span>Dark Theme</span><span class="visually-hidden">Dark Theme</span></span></a></li>
+                      <li><a class="dropdown-item" href="Notifications/Notifications.html">  <span id="icon">🌙 <span>Dark Theme</span><span class="visually-hidden">الوضع الليلي</span></span></a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li ><a  class="dropdown-item" href="../old/ar/index.html">النسخة القديمة</a></li>
                     </ul>
                   </li>
+                 <li><input type="checkbox" class="checkbox" id="checkbox">
+                  <label for="checkbox" class="checkbox-label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <span class="ball"></span>
+                  </label></li>
                  
                 </ul>
                 
@@ -72,26 +81,26 @@
 <section id="main-section">
 
 <div class="container container-fluid  d-flex">
-        <h3>Welcome to my portfolio <br>I am Abdullah,<br> a Software Tester & future Data Scientist </h3>
+        <h3>أهلا بك في معرض أعمالي <br>أنا عبدالله,<br> أنا Software Tester & future Data Scientist </h3>
     
 
     
-    <img src="old/images/background.jpg" alt="" class="float-end w-50">
+    <img src="../images/background.png" alt="abdullah-Aladham" id="main-img" class="float-start w-50">
     <div></div>
 
 </div>
  
 </section>
 <section id="majors">
-    <h1 class="text-center"> My Majors</h1>
+    <h1 class="text-center"> التخصصات</h1>
 <div class="container container-fluid container d-flex">
 <div class="row">
     <div class="col col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">QA Engineering</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Manual & Automation testing</h6>
-              <p class="card-text">Doing manual and Automation Testcases and i have skills in Cypress and Selenium </p>
+              <h6 class="card-subtitle mb-2 text-muted">الاختبار اليدوي والالي</h6>
+              <p class="card-text">أقوم بإجراء اختبارات يدوية واختبارات آلية ولدي مهارات في Cypress وSelenium </p>
               
             </div>
           </div>
@@ -110,10 +119,9 @@
     <div class="col col-sm-2 col-md-3 mx-auto">
         <div class="card" style="width: 18rem;">
             <div class="card-body">
-              <h5 class="card-title">Data Science</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Data Science&AI</h6>
-              <p class="card-text">ongoing Develpoment of my skills in the field,
-                 since i found myself in Data mining field which is subset of data science</p>
+              <h5 class="card-title">علم البيانات</h5>
+              <h6 class="card-subtitle mb-2 text-muted">علم البيانات والذكاء الاصطناعي</h6>
+              <p class="card-text">اعمل على التطوير المستمر لمهاراتي في هذا المجال، منذ أن وجدت نفسي في مجال تعدين البيانات وهو جزء من علم البيانات</p>
               
             </div>
           </div>
@@ -132,7 +140,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Kalemati [Spring boot]</h5>
                   <p class="card-text"></p>
-                  <a href="https://github.com/abdullah-aladham/kalemati2022" class="btn btn-primary" target="_blank">visit Repo</a>
+                  <a href="https://github.com/abdullah-aladham/kalemati2022" class="btn btn-primary" target="_blank">قم بالاطلاع على الكود</a>
                 </div>
               </div>
         </div>
@@ -140,16 +148,16 @@
             <img src="old/images/cystack.jpg" class="card-img-top" alt="cystack logo">
             <div class="card-body">
               <h5 class="card-title">Certimanager</h5>
-              <p class="card-text">a fullstack project for managing ssl certificates</p>
-              <a href="https://github.com/abdullah-aladham/cy-certimanager" class="btn btn-primary">visit project repo</a>
+              <p class="card-text">مشروع متكامل لإدارة شهادات SSL</p>
+              <a href="https://github.com/abdullah-aladham/cy-certimanager" class="btn btn-primary">قم بالاطلاع على الكود</a>
             </div>
           </div></div>
         <div class="col col-sm-3 col-md-3 m-auto"><div class="card" style="width: 18rem;">
             <img src="old/images/Folla-frontend.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Folla Accessories</h5>
-              <p class="card-text">a project from folla Accessories website project suite, built with HTML,CSS,Bootstrap v5.3.3</p>
-              <a href="https://abdullah-aladham.github.io/folla-frontend/index.html" class="btn btn-primary">Visit Website</a>
+              <p class="card-text">مشروع من مجموعة مشاريع موقع folla Accessories، تم بناؤه باستخدام HTML وCSS وBootstrap v5.3.3</p>
+              <a href="https://abdullah-aladham.github.io/folla-frontend/index.html" class="btn btn-primary">قم بزيارة الموقع</a>
             </div>
           </div></div>
        
@@ -158,7 +166,7 @@
     </div>
 </section>
 <section id="Education">
-    <h1 class="text-center">Education & Certifications</h1>
+    <h1 class="text-center">التعليم والشهادات</h1>
     <div class="container container-fluid container d-flex">
     <table class="table ">
         <thead>
@@ -166,20 +174,20 @@
                 #
             </th>
             <th scope="col">
-                School
+                المركز
             </th>
-            <th scope="col">Degree</th>
-            <th scope="col">field of study</th>
-            <th scope="col">Start date</th>
-            <th scope="col">End Date</th>
-            <th scope="col">Notes</th>
+            <th scope="col">الدرجة العلمية</th>
+            <th scope="col">مجال الدراسة\التخصص</th>
+            <th scope="col">تاريخ البداية</th>
+            <th scope="col">تاريخ التخرج</th>
+            <th scope="col">ملاحظات</th>
         </thead>
         <tbody>
             <tr>
                 <td>1</td>
-                <td>An-Najah National University</td>
-                <td>Bachelor of Management information Systems</td>
-                <td>Data Analysis,BI</td>
+                <td>جامعة النجاح الوطنية</td>
+                <td>بكالوريوس نظم معلومات ادارية</td>
+                <td>تحليل بيانات ,ذكاء اعمال</td>
                 <td>08/2015</td>
                 <td>09/2019</td>
             </tr>
@@ -187,7 +195,7 @@
                 <td>2</td>
                 <td>Super Quality Academy</td>
                 <td>QA&QC Software testing -ISTQB CTFL</td>
-                <td>QA,Software Testing</td>
+                <td>توكيد جودة البرمجيات ,إختبار البرمجيات</td>
                 <td>04/2023</td>
                 <td>08/2023</td>
             </tr>
@@ -195,7 +203,7 @@
                 <td>3</td>
                 <td>Super Quality Academy</td>
                 <td>Advanced & Automation Software Testing</td>
-                <td>QA , Software Testing</td>
+                <td>توكيد جودة البرمجيات ,إختبار البرمجيات</td>
                 <td>08/2023</td>
                 <td>01/2024</td>
             </tr>
@@ -208,7 +216,7 @@
             </tr>
             <td>11/2024</td>
             <td>-</td>
-            <td>under Learning</td>
+            <td>في مرحلة التعلم ولم احصل على الشهادة بعد</td>
 
         </tbody>
     </table>
@@ -221,10 +229,10 @@
             <li>
                 Html
             </li>
-            <li>Software Testing</li>
-            <li> Automation Testing</li>
-            <li>Manual testing</li>
-            <li>Data science</li>
+            <li>إختبار البرمجيات</li>
+            <li> الاختبار المؤتمت للبرمجيات</li>
+            <li>الاختبار اليدوي للبرمجيات</li>
+            <li>علم البيانات</li>
         </ul>
     </div>
 </section>
@@ -237,7 +245,7 @@
           <div class="row ">
           <div class="col-md-5">
         <div class="form-group form-floating">
-          <input type="text" id="Name"class="form-control "  placeholder="Enter Your name" required>
+          <input type="text" id="Name"class="form-control "  placeholder="ادخل اسمك" required>
           <label for="Name">Your name</label>
     
         </div>
@@ -245,31 +253,31 @@
     <div class="col-md-5">
         <div class="form-group form-floating">
           
-          <input type="email" class="form-control " id="Email" placeholder="Enter Your Email"required>
-          <label for="Email">Your Email</label>
+          <input type="email" class="form-control " id="Email" placeholder="ادخل البريد الالكتروني "required>
+          <label for="Email">البريد الالكتروني</label>
         </div>
         </div>
         <div class="row">
         <div class="col-md-5 ">
         <div class="form-group form-floating ">
-            <input type="text" class="form-control col-sm-2 col-form-label " id="Phone" placeholder="Enter Phone Number"required>
-            <label for="Phone">Phone number</label>
+            <input type="text" class="form-control col-sm-2 col-form-label " id="Phone" placeholder="ادخل رقم الهاتف المحمول"required>
+            <label for="Phone">رقم الهاتف المحمول</label>
     
           </div>
           </div>
           <div class="row ">
           <div class="col-md text-center">
           <div class="form-group form-floating mb-3">
-            <textarea class="form-control "  rows="3" placeholder="Your text here..." id="Subject"></textarea>
-            <label for="Subject" class="form-label">Subject</label>
+            <textarea class="form-control "  rows="3" placeholder="ادخل النص هنا" id="Subject"></textarea>
+            <label for="Subject" class="form-label">الموضوع</label>
     
           </div>
         </div>
         </div>
           </div>
           <div class="text-center">
-        <button type="submit" class="btn btn-success btn-center">Submit</button>
-        <button type="reset"class="btn btn-danger btn-center">Clear</button>
+        <button type="submit" class="btn btn-success btn-center">أرسل</button>
+        <button type="reset"class="btn btn-danger btn-center">إلغاء</button>
         </div>
       </form>
     <footer>
@@ -278,7 +286,7 @@
          <div class="row">
              <div class="col-md-3">
                  <h4 class="text-center text-md ">Abdullah Aladham</h4>
-                 <p id="about-us-subtitle" "> 🌟دٍقّة💯,أَناقة🥰,لمعان</p>
+                 <p id="about-us-subtitle" >متخصص في مجالَّي إختبار البرمجيات وعلم البيانات</p>
              </div>
              <div class="col-md-2"><h4>روابط سريعة</h4>
              <ul class="list-unstyled">
@@ -306,5 +314,6 @@
         <a href="#top" class="btn btn-light  rounded-pill translate-middle  end-0 bottom-0 position-sticky" id="back-to-top"><i class="fa-solid fa-chevron-up"></i></a>
 
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>

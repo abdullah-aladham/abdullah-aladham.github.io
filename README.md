@@ -1,8 +1,9 @@
-#abdullah-aladham repository
+#abdullah-aladham repository (Rebuilt)
 <p>
   Welcome to my portfolio website where you find my portfolio website which is <br/>
-  built with html and css
+  built with html and css & Bootstrap v5.3.3
 </p>
+<div>
 <p>
   to build website like that you need to :
   <ol>
@@ -12,6 +13,7 @@
     
   </ol>
 </p>
+</div>
 <p>
   preview the design from here:💖👇<br/>
   https://abdullah-aladham.github.io/
