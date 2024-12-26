@@ -21,62 +21,66 @@
 </head>
 <body id="body">
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light" id="navbar" >
-            <div class="container d-flex flex-row bd-highlight">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light  " id="navbar" >
+        <div class="container d-flex  bd-highlight">
+          
+        <a class="navbar-brand" href="index.html" id="logo">Abdullah</a>
+        
+        
+        <div class="container">
+          <button 
+        class="navbar-toggler end-10" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#main-menu" 
+        aria-controls="main-menu" 
+        aria-expanded="false" 
+        aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="main-menu">
+
+            <ul class="navbar-nav ms-10 mb-2 mb-lg-0  justify-content-end">
+                <a class="navbar-brand"></a>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">الصفحة الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">الخبرات</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" 
+                href="#" 
+                role="button"
+                 data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                 <span> المزيد</span>
+                 </a>
+                <ul class="dropdown-menu dropdown-menu-lg-start">
+                  <li><a class="dropdown-item " href="#projects"><i class="fa-solid fa-layer-group"></i><span class="p-1">المشاريع</span></a></li>
+                  <li><a class="dropdown-item" href="#Contactus"><i class="fa-solid fa-phone"></i> <span class="p-2">اتصل بنا</span></a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li ><a  class="dropdown-item" href="../index.html">EN</a></li>
+                   <li><hr class="dropdown-divider"></li> 
+                  <li ><a  class="dropdown-item" href="../old/ar/index.html">النسخة القديمة</a></li>
+                </ul> 
+              </li> 
+              <li><hr class="dropdown-divider"></li>
+
+              <li><input type="checkbox" class="checkbox" id="checkbox">
+                <label for="checkbox" class="checkbox-label">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <span class="ball"></span>
+                </label></li>
               
-            <a class="navbar-brand" href="index.html" id="logo">Abdullah</a>
+             
+            </ul> 
             
-            <button 
-            class="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#main-menu" 
-            aria-controls="main-menu" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="container">
-              
-              
-                <ul class="navbar-nav ms-10 mb-2 mb-lg-0 justify-content-end">
-                    <a class="navbar-brand"></a>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">الصفحة الرئيسية</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#experience">الخبرات</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" 
-                    href="#" 
-                    role="button"
-                     data-bs-toggle="dropdown"
-                      aria-expanded="false">
-                      <span>المزيد</span>
-                     </a>
-                    <ul class="dropdown-menu dropdown-menu-lg-start">
-                      <li><a class="dropdown-item " href="#projects"><i class="fa-solid fa-layer-group"></i><span class="p-1">المشاريع</span></a></li>
-                      <li><a class="dropdown-item" href="#Contactus"><i class="fa-solid fa-phone"></i> <span class="p-2">اتصل بنا</span></a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li ><a  class="dropdown-item" href="../index.html">EN</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li ><a  class="dropdown-item" href="../old/ar/index.html">النسخة القديمة</a></li>
-                    </ul>
-                  </li>
-                 <li><input type="checkbox" class="checkbox" id="checkbox">
-                  <label for="checkbox" class="checkbox-label">
-                    <i class="fas fa-moon"></i>
-                    <i class="fas fa-sun"></i>
-                    <span class="ball"></span>
-                  </label></li>
-                 
-                </ul>
-                
-              </div>
-            </div>
-               
-            </nav>
+           </div>
+        </div>
+           
+        </nav>
     </header>
 <section id="main-section">
 
@@ -85,10 +89,10 @@
        
 <div class="justify-content-end">
   <h3>أهلا بك في معرض أعمالي <br>أنا عبدالله,<br> أنا <span id="major1">Software Tester & future Data Scientist</span> </h3>
-  <a class="button btn btn-outline-success" href="../files/Abdullah Aladham QA.pdf"> سيرتي الذاتية</a>
+  <a class="button btn btn-outline-success" href="../files/Abdullah Aladham QA.pdf" target="_blank"> سيرتي الذاتية</a>
 </div>
     
-    <img src="../images/background.png" alt="abdullah-Aladham" id="main-img" class="float-start w-25">
+    <img src="../images/background.png" alt="abdullah-Aladham" id="main-img" class="float-start w-25 h-25">
 </div>
 </section>
 <section id="majors">
@@ -224,60 +228,62 @@
 </section>
 <section id="Education">
     <h1 class="text-center">التعليم والشهادات</h1>
-    <div class="container container-fluid container d-flex">
-    <table class="table ">
-        <thead>
-            <th scope="col">
-                #
-            </th>
-            <th scope="col">
-                المركز
-            </th>
-            <th scope="col">الدرجة العلمية</th>
-            <th scope="col">مجال الدراسة\التخصص</th>
-            <th scope="col">تاريخ البداية</th>
-            <th scope="col">تاريخ التخرج</th>
-            <th scope="col">ملاحظات</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>جامعة النجاح الوطنية</td>
-                <td>بكالوريوس نظم معلومات ادارية</td>
-                <td>تحليل بيانات ,ذكاء اعمال</td>
-                <td>08/2015</td>
-                <td>09/2019</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Super Quality Academy</td>
-                <td>QA&QC Software testing -ISTQB CTFL</td>
-                <td>توكيد جودة البرمجيات ,إختبار البرمجيات</td>
-                <td>04/2023</td>
-                <td>08/2023</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Super Quality Academy</td>
-                <td>Advanced & Automation Software Testing</td>
-                <td>توكيد جودة البرمجيات ,إختبار البرمجيات</td>
-                <td>08/2023</td>
-                <td>01/2024</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Udemy</td>
-                <td>Complete A.I. & Machine Learning, Data Science Bootcamp
-                </td>
-                <td>AI,Machine Learning,Data Mining</td>
-            </tr>
-            <td>11/2024</td>
-            <td>-</td>
-            <td>في مرحلة التعلم ولم احصل على الشهادة بعد</td>
+    <div class="container container-fluid container d-flex ">
+      <div class="row justify-content-center justify-content-center">
+        <div class="col col-md-3 ">
+          <div class="card" style="width: 13rem;">
+              <div class="card-body">
+                <h5 class="card-title">نظم معلومات ادارية</h5>
+                <h6 class="card-subtitle mb-2 text-muted">جامعة النجاح الوطنية</h6>
+                
+              </div>
+              <div class="card-footer text-body-secondary">
+                آب.2015 - أيلول.2019
+              </div>
+              </div>
+            </div>
+            <div class="col col-md-3 ">
+              <div class="card" style="width: 13rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">QA&QC Software testing -ISTQB CTFL</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Super Quality Academy</h6>
+                    
+                  </div>
+                  <div class="card-footer text-body-secondary">
+                    نيسان.2023 - آب.2023
+                  </div>
+                </div></div>
+                <div class="col col-md-3 ">
+                <div class="card" style="width: 13rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Advanced & Automation Software Testing
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Super Quality Academy</h6>
+                    
+                  </div>
+                  <div class="card-footer text-body-secondary">
+                    يناير.2024 - أيلول.2023
+                  </div>
+                </div></div>
+                <div class="col col-md-3 ">
+                <div class="card" style="width: 13rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Complete A.I. & Machine Learning, Data Science Bootcamp                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Udemy</h6>
+                    
+                  </div>
+                  <div class="card-footer text-body-secondary">
+                  <span> - تشرين الثاني.2024</span> 
+                  <p style="color: #10aa5d;">في مرحلة التعلم...</p>
+                  </div>
+                </div>
 
-        </tbody>
-    </table>
+      </div>
+      
 </div>
+    
+    
+
 </section>
 <section id="skills">
     <h1 class="text-center">Skills</h1>
@@ -294,7 +300,7 @@
     </div>
 </section>
 <section class="contactus" id="Contactus">
-    <h3 class="text-center">Contact Us</h3>
+    <h3 class="text-center"> اتصل بنا</h3>
     <div class="container d-flex justify-content-center">
       
       

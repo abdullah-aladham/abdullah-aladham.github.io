@@ -22,25 +22,28 @@
 </head>
 <body id="body">
     <header>
+      
         <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light " id="navbar" >
             <div class="container d-flex flex-row bd-highlight">
               
             <a class="navbar-brand" href="index.html" id="logo">Abdullah</a>
-            
+           
             <button 
-            class="navbar-toggler" 
-            type="button" 
-            data-bs-toggle="collapse" 
-            data-bs-target="#main-menu" 
-            aria-controls="main-menu" 
-            aria-expanded="false" 
-            aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="container">
+              class="navbar-toggler" 
+              type="button" 
+              data-bs-toggle="collapse" 
+              data-bs-target="#main-menu" 
+              aria-controls="main-menu" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="container-fluid">
               
-              
-                <ul class="navbar-nav ms-10 mb-2 mb-lg-0  justify-content-end">
+            <div class="collapse navbar-collapse justify-content-end" id="main-menu">
+
+                <ul class="navbar-nav ms-10 mb-2 mb-lg-0 ">
                     <a class="navbar-brand"></a>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -57,26 +60,25 @@
                      <span> More</span>
                      </a>
                     <ul class="dropdown-menu dropdown-menu-lg-start">
-                      <li><a class="dropdown-item " href="#"><i class="fa-solid fa-layer-group"></i><span class="p-1">projects</span></a></li>
-                      <li><a class="dropdown-item" href="user-membership/signup.html"><i class="fa-solid fa-phone"></i> <span class="p-2">Contact Us</span></a></li>
+                      <li><a class="dropdown-item " href="#projects"><i class="fa-solid fa-layer-group"></i><span class="p-1">المشاريع</span></a></li>
+                      <li><a class="dropdown-item" href="#contactus"><i class="fa-solid fa-phone"></i> <span class="p-2"> اتصل بنا</span></a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li ><a  class="dropdown-item" href="ar/index.html">العربية</a></li>
-                      <!-- <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" >  <span id="icon">🌙 <span>Dark Theme</span><span class="visually-hidden">Dark Theme</span></span></a></li> -->
-                      <li><hr class="dropdown-divider"></li>
+                    <li><hr class="dropdown-divider"></li>
                       <li ><a  class="dropdown-item" href="../old/ar/index.html">old version</a></li>
-                    </ul>
-                  </li>
+                    </ul> 
+                  </li> 
                   <li><input type="checkbox" class="checkbox" id="checkbox">
-                  <label for="checkbox" class="checkbox-label">
-                    <i class="fas fa-moon"></i>
-                    <i class="fas fa-sun"></i>
-                    <span class="ball"></span>
-                  </label></li>
+                    <label for="checkbox" class="checkbox-label">
+                      <i class="fas fa-moon"></i>
+                      <i class="fas fa-sun"></i>
+                      <span class="ball"></span>
+                    </label></li>
+                  
                  
-                </ul>
+                </ul> 
                 
-              </div>
+               </div>
             </div>
                
             </nav>
@@ -86,11 +88,11 @@
 <div class="container container-fluid  d-flex justify-content-center">
   <div>
         <h2>Welcome to my portfolio <br>I am Abdullah,<br> a Software Tester & future Data Scientist</h2>
-        <a class="button btn btn-outline-success" href="files/Abdullah Aladham QA.pdf"> My CV</a>
+        <a class="button btn btn-outline-success" href="files/Abdullah Aladham QA.pdf" target="_blank"> My CV</a>
 
       </div>
     
-    <img src="images/background.png" alt="abdullah-aladham" class="float-end w-25">
+    <img src="images/background.png" alt="abdullah-aladham" class="float-end w-25 h-25">
     <div></div>
 
 </div>
@@ -218,59 +220,58 @@
 </section>
 <section id="Education">
     <h1 class="text-center">Education & Certifications</h1>
-    <div class="container container-fluid container d-flex justify-content-center">
-    <table class="table ">
-        <thead>
-            <th scope="col">
-                #
-            </th>
-            <th scope="col">
-                School
-            </th>
-            <th scope="col">Degree</th>
-            <th scope="col">field of study</th>
-            <th scope="col">Start date</th>
-            <th scope="col">End Date</th>
-            <th scope="col">Notes</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>An-Najah National University</td>
-                <td>Bachelor of Management information Systems</td>
-                <td>Data Analysis,BI</td>
-                <td>08/2015</td>
-                <td>09/2019</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Super Quality Academy</td>
-                <td>QA&QC Software testing -ISTQB CTFL</td>
-                <td>QA,Software Testing</td>
-                <td>04/2023</td>
-                <td>08/2023</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Super Quality Academy</td>
-                <td>Advanced & Automation Software Testing</td>
-                <td>QA , Software Testing</td>
-                <td>08/2023</td>
-                <td>01/2024</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Udemy</td>
-                <td>Complete A.I. & Machine Learning, Data Science Bootcamp
-                </td>
-                <td>AI,Machine Learning,Data Mining</td>
-            </tr>
-            <td>11/2024</td>
-            <td>-</td>
-            <td>under Learning</td>
+    <div class="container container-fluid container d-flex ">
+      <div class="row justify-content-center justify-content-center">
+        <div class="col col-md-3 ">
+          <div class="card" style="width: 13rem;">
+              <div class="card-body">
+                <h5 class="card-title">نظم معلومات ادارية</h5>
+                <h6 class="card-subtitle mb-2 text-muted">جامعة النجاح الوطنية</h6>
+                
+              </div>
+              <div class="card-footer text-body-secondary">
+                Aug.2015 - Sep.2019
+              </div>
+              </div>
+            </div>
+            <div class="col col-md-3 ">
+              <div class="card" style="width: 13rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">QA&QC Software testing -ISTQB CTFL</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Super Quality Academy</h6>
+                    
+                  </div>
+                  <div class="card-footer text-body-secondary">
+                    Apr.2023 - Aug.2023
+                  </div>
+                </div></div>
+                <div class="col col-md-3 ">
+                <div class="card" style="width: 13rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Advanced & Automation Software Testing
+                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Super Quality Academy</h6>
+                    
+                  </div>
+                  <div class="card-footer text-body-secondary">
+                    Jan.2024 - Sep.2023
+                  </div>
+                </div></div>
+                <div class="col col-md-3 ">
+                <div class="card" style="width: 13rem;">
+                  <div class="card-body">
+                    <h5 class="card-title">Complete A.I. & Machine Learning, Data Science Bootcamp                    </h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Udemy</h6>
+                    
+                  </div>
+                  <div class="card-footer text-body-secondary">
+                  <span> Nov.2024-</span> 
+                  <p style="color: #10aa5d;">Under Learning...</p>
+                  </div>
+                </div>
 
-        </tbody>
-    </table>
+      </div>
+      
 </div>
 </section>
 <section id="skills">
@@ -287,7 +288,7 @@
         </ul>
     </div>
 </section>
-<section class="contactus">
+<section class="contactus" id="contactus">
     <h3 class="text-center">Contact Us</h3>
     <div class="container d-flex justify-content-center">
       
