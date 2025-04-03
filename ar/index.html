@@ -20,34 +20,39 @@
 <title>Abdullah Aladham | Main Page</title>
 </head>
 <body id="body">
-    <header>
-      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light  " id="navbar" >
-        <div class="container d-flex  bd-highlight">
+  <header>
+      
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light " id="navbar" >
+        <div class="container d-flex flex-row bd-highlight">
           
         <a class="navbar-brand" href="index.html" id="logo">Abdullah</a>
-        
-        
-        <div class="container">
-          <button 
-        class="navbar-toggler end-10" 
-        type="button" 
-        data-bs-toggle="collapse" 
-        data-bs-target="#main-menu" 
-        aria-controls="main-menu" 
-        aria-expanded="false" 
-        aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+       
+        <button 
+          class="navbar-toggler" 
+          type="button" 
+          data-bs-toggle="collapse" 
+          data-bs-target="#main-menu" 
+          aria-controls="main-menu" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+          id="nav-btn"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="container-fluid">
+          
         <div class="collapse navbar-collapse justify-content-end" id="main-menu">
 
-            <ul class="navbar-nav ms-10 mb-2 mb-lg-0  justify-content-end">
+            <ul class="navbar-nav ms-10 mb-2 mb-lg-0 ">
                 <a class="navbar-brand"></a>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">الصفحة الرئيسية</a>
+                <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#experience">الخبرات</a>
               </li>
+              <li ><a class="nav-link" href="../index.html">EN</a></li>
+
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" 
                 href="#" 
@@ -58,15 +63,11 @@
                  </a>
                 <ul class="dropdown-menu dropdown-menu-lg-start">
                   <li><a class="dropdown-item " href="#projects"><i class="fa-solid fa-layer-group"></i><span class="p-1">المشاريع</span></a></li>
-                  <li><a class="dropdown-item" href="#Contactus"><i class="fa-solid fa-phone"></i> <span class="p-2">اتصل بنا</span></a></li>
+                  <li><a class="dropdown-item" href="#contactus"><i class="fa-solid fa-phone"></i> <span class="p-2">إتصل بنا</span></a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li ><a  class="dropdown-item" href="../index.html">EN</a></li>
-                   <li><hr class="dropdown-divider"></li> 
                   <li ><a  class="dropdown-item" href="../old/ar/index.html">النسخة القديمة</a></li>
                 </ul> 
               </li> 
-              <li><hr class="dropdown-divider"></li>
-
               <li><input type="checkbox" class="checkbox" id="checkbox">
                 <label for="checkbox" class="checkbox-label">
                   <i class="fas fa-moon"></i>
@@ -81,22 +82,34 @@
         </div>
            
         </nav>
-    </header>
+</header>
 <section id="main-section">
 
 <div class=" container container-fluid  d-flex justify-content-center">
     
        
 <div class="justify-content-end">
-  <h3>أهلا بك في معرض أعمالي <br>أنا عبدالله,<br> أنا <span id="major1">Software Tester & future Data Scientist</span> </h3>
-  <a class="button btn btn-outline-success" href="../files/Abdullah Aladham QA.pdf" target="_blank"> سيرتي الذاتية</a>
+  <h3>أهلا بك في معرض أعمالي <br>أنا عبدالله,<br> أنا <span id="major1">Software Tester </span> </h3>
+  <!-- <a class="button btn btn-outline-success" href="../files/Abdullah Aladham QA.pdf" target="_blank"> سيرتي الذاتية</a> -->
+  <div class="btn-group d-flex flex-row-reverse">
+    <a class="btn btn-primary" href="../files/Abdullah Aladham QA CV.pdf"  target="_blank">سيرتي الذاتية (CV)</a>
+    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+      <!-- <a href="../files/Abdullah Aladham QA CV.pdf"> سيرتي</a> -->
+      <span class="visually-hidden">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="../files/QA Cover Letter (1).pdf" target="_blank">خطاب التقديم</a></li>
+      <li><a class="dropdown-item" href="../files/Abdullah Aladham CV Summary.pdf" target="_blank">ملخص السيرة الذاتية</a></li>
+      
+    </ul>
+  </div>
 </div>
     
     <img src="../images/background.png" alt="abdullah-Aladham" id="main-img" class="float-start w-25 h-25">
 </div>
 </section>
-<section id="majors">
-    <h1 class="text-center"> التخصصات</h1>
+<section id="major">
+    <h1 class="text-center"> التخصص</h1>
 <div class="container container-fluid container d-flex justify-content-center">
 <div class="row">
     <div class="col col-md-3 mx-auto">
@@ -120,17 +133,7 @@
             </div>
           </div>
     </div> -->
-    <div class="col col-sm-2 col-md-3 mx-auto">
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title">علم البيانات</h5>
-              <h6 class="card-subtitle mb-2 text-muted">علم البيانات والذكاء الاصطناعي</h6>
-              <p class="card-text">اعمل على التطوير المستمر لمهاراتي في هذا المجال، منذ أن وجدت نفسي في مجال تعدين البيانات وهو جزء من علم البيانات</p>
-              
-            </div>
-          </div>
-    </div>
-</div>
+    
 </div>
 </section>
 <section id="experience">
@@ -229,8 +232,8 @@
 <section id="Education">
     <h1 class="text-center">التعليم والشهادات</h1>
     <div class="container container-fluid container d-flex ">
-      <div class="row justify-content-center justify-content-center">
-        <div class="col col-md-3 ">
+      <div class="row justify-content-center justify-content-center mx-auto">
+        <div class="col col-md-4 ">
           <div class="card" style="width: 13rem;">
               <div class="card-body">
                 <h5 class="card-title">نظم معلومات ادارية</h5>
@@ -242,7 +245,7 @@
               </div>
               </div>
             </div>
-            <div class="col col-md-3 ">
+            <div class="col col-md-4">
               <div class="card" style="width: 13rem;">
                   <div class="card-body">
                     <h5 class="card-title">QA&QC Software testing -ISTQB CTFL</h5>
@@ -253,7 +256,7 @@
                     نيسان.2023 - آب.2023
                   </div>
                 </div></div>
-                <div class="col col-md-3 ">
+                 <div class="col col-md-3 ">
                 <div class="card" style="width: 13rem;">
                   <div class="card-body">
                     <h5 class="card-title">Advanced & Automation Software Testing
@@ -262,102 +265,74 @@
                     
                   </div>
                   <div class="card-footer text-body-secondary">
-                    يناير.2024 - أيلول.2023
+                  سبتمبر.2023 - كانون الثاني.2024
                   </div>
-                </div></div>
-                <div class="col col-md-3 ">
-                <div class="card" style="width: 13rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Complete A.I. & Machine Learning, Data Science Bootcamp                    </h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Udemy</h6>
-                    
-                  </div>
-                  <div class="card-footer text-body-secondary">
-                  <span> - تشرين الثاني.2024</span> 
-                  <p style="color: #10aa5d;">في مرحلة التعلم...</p>
-                  </div>
-                </div>
-
-      </div>
-      
+                </div></div> 
+                
 </div>
     
     
 
 </section>
 <section id="skills">
-    <h1 class="text-center">Skills</h1>
-    <div class="container container-fluid">
-        <ul class="list-unstyled">
-            <li>
-                Html
-            </li>
-            <li>إختبار البرمجيات</li>
-            <li> الاختبار المؤتمت للبرمجيات</li>
-            <li>الاختبار اليدوي للبرمجيات</li>
-            <li>علم البيانات</li>
-        </ul>
+  <h1 class="text-center">المهارات</h1>
+  <div class="container container-fluid">
+
+    <div class="row justify-content-center justify-content-center mx-auto">
+      <div class="col col-md-2">
+        
+              <h5 class="card-title">Software Testing</h5>
+             
+          </div>
+          <div class="col col-md-2 ">
+           
+                  <h5 >Automation Testing
+                  </h5>
+                 
+               
+              </div>
+              <div class="col col-md-2 ">
+               
+                    
+                      <h5>Manual testing
+                      </h5>
+                     
+                  </div>
+          </div>
+          <section id="other-skills">
+            <h1 class="text-center">المهارات الأخرى</h1>
+            <div class="row justify-content-center justify-content-center mx-auto">
+              <div class="col col-md-2 ">
+               
+                      <h5 >HTML
+                      </h5>
+                     
+                    </div>
+                    <div class="col col-md-2 ">
+                     
+                            <h5 >Data Science
+                            </h5>
+                            
+                          </div>
+                         
+                          </div>
+</div>
+          </section>
+        
+  </div>
+</section>
+<section class="contactus" id="contactus" >
+  <h3 class="text-center">إتصل بنا</h3>
+  <div class="container d-flex justify-content-center">
+    <div class=" row justify-content-center justify-content-center mx-auto">
+      <div class="col col-md-2">
+     
+           <a href="https://www.linkedin.com/in/abdullah-aladham/">   <i class="fa-brands fa-linkedin" id="contactus-linkedin"></i></a>
+            
+          
+    <div class="col col-md-2"></div>
     </div>
 </section>
-<section class="contactus" id="Contactus">
-    <h3 class="text-center"> اتصل بنا</h3>
-    <div class="container d-flex justify-content-center">
-      
-      
-        <form >
-          <div class="row ">
-          <div class="col-md-5">
-        <div class="form-group form-floating">
-          <input type="text" id="Name"class="form-control "  placeholder="ادخل اسمك" required>
-          <label for="Name">اسمك</label>
-    
-        </div>
-    </div>
-    <div class="col-md-5">
-        <div class="form-group form-floating">
-          
-          <input type="email" class="form-control " id="Email" placeholder="ادخل البريد الالكتروني "required>
-          <label for="Email">البريد الالكتروني</label>
-        </div>
-        </div>
-        <div class="row">
-        <div class="col-md-3 ">
-        <div class="form-group form-floating ">
-            <input type="text" class="form-control col-sm-2 col-form-label " id="Phone" placeholder="ادخل رقم الهاتف المحمول"required>
-            <label for="Phone">رقم الهاتف المحمول</label>
-    
-          </div>
-          
-          </div>
-<div class="col-md-5">
-  <div class="form-group form-floating">
-          
-    <input type="email" class="form-control " id="linkedin-profile" placeholder="ادخل رابط حساب الlinkedin "required>
-    <label for="Email">رابط حساب الlinkedin</label>
-  </div>
-</div>
-<div class="col-md-5">
-  <div class="form-group form-floating">
-          
-    <input type="email" class="form-control " id="linkedin-profile" placeholder="ادخل رابط حساب الlinkedin ">
-    <label for="Email">رابط الموقع الخاص بك</label>
-  </div>
-</div>
-          <div class="row ">
-          <div class="col-md-6 text-center">
-          <div class="form-group form-floating mb-3">
-            <textarea class="form-control "  rows="3" placeholder="ادخل النص هنا" id="Subject"></textarea>
-            <label for="Subject" class="form-label">الموضوع</label>
-    
-          </div>
-        </div>
-        </div>
-          </div>
-          <div class="text-center">
-        <button type="submit" class="btn btn-success btn-center">أرسل</button>
-        <button type="reset"class="btn btn-danger btn-center">إلغاء</button>
-        </div>
-      </form>
     <footer>
         <hr>
         <div class="container">
@@ -368,8 +343,15 @@
              </div>
              <div class="col-md-2"><h4>روابط سريعة</h4>
              <ul class="list-unstyled">
-                 <li><a href="#about-us" id="footer-link">Home</a></li>
-                 <li><a href="#projects"id="footer-link">Projects</a></li>
+                 <li><a href="#about-us" id="footer-link">من نحن</a></li>
+                 <li><a href="#major" id="footer-link">التخصص</a></li>
+                 <li><a href="#experience" id="footer-link">الخبرات</a></li>
+                 <li><a href="#Education" id="footer-link">التعليم والشهادات</a></li>
+                 <li><a href="#projects"id="footer-link">المشاريع</a></li>
+                 <li><a href="#skills"id="footer-link">المهارات</a></li>
+                 <li><a href="#other-skills"id="footer-link">المهارات الاخرى</a></li>
+
+
                  <!-- <li><a href="new-products.html"id="footer-link">المنتجات الجديدة</a></li> -->
 
 
@@ -381,9 +363,7 @@
              <div class="col"><h4>Let's work together</h4>
                  <div  >
                      <a href="https://www.linkedin.com/in/abdullah-aladham/"id="footer-link" target="_blank"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
-                     <!-- <a href="https://www.instagram.com/folla_accessories/"id="footer-link" target="_blank"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a> -->
-                     <a href="https://www.tiktok.com/@folla.accessories"id="footer-link" target="_blank"><i class="fa-brands fa-upwork" style="color: #000000;"></i></a>
-                     <!-- <a href="https://t.me/folla_accessories"id="footer-link" target="_blank"><i class="fa-brands fa-telegram" style="color: #000000;"></i></a> -->
+                     <a href="https://www.upwork.com/freelancers/~01ca51ad621ece9a78"id="footer-link" target="_blank"><i class="fa-brands fa-upwork" style="color: #000000;"></i></a>
  
                  </div>
              </div>
