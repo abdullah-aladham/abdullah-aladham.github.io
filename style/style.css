@@ -1,11 +1,26 @@
+
 #logo{
-    font-family:Montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family:Montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+         font-family:"Source Code Pro","Roboto","Poppins" ;
+
     font-weight: 440;
 }
-
+#ar-btn{
+    max-width: 24px;
+    max-height: 24px;
+}
 body{
     margin-top:70px ;
-    font-family:Montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family:Montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+     font-family:"Source Code Pro","Roboto","Poppins" ;
+    color:#2E6F40;
+    background-color:#edece7 ;
+    
+}
+#navbar{
+        background-color:#edece7 ;
+    color:#2E6F40;
+
 }
 #footer-link{
     text-decoration: none;
@@ -48,10 +63,31 @@ transition: transform 0.2s linear;
 #nav-btn{
     border-style:none;
 }
+#main-section-div{
+    margin-top:40px;
+width: 700px;
+}
+#paper-plane{
+    max-width: 24px;
+    max-height: 24px;
+}
+#about-us-subtitle{
+    margin-left:15px;
+}
+#home{
+    max-width: 24px;
+    max-height: 24px;
+    margin-right:5px;
+}
+#more-vertical{
+    max-width: 24px;
+    max-height: 24px;
+}
 @media (max-width:400px) {
-    *{
+    body{
         font-size:12px;
     }
+   
     a{
         font-size: 1rem;
     }
@@ -61,7 +97,16 @@ transition: transform 0.2s linear;
     h1,h2,h3,h4,h5{
         font-size: 1.1rem;
     }
-    
+    #main-section-div{
+    margin-top:20px;
+width: 200px;
+}
+#main-section-div h2{
+   font-size: .7rem;
+}
+ .card{
+    width: 200px;
+ }   
 }
 @media (max-width:720px) {
     *{

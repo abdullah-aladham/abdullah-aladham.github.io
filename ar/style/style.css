@@ -4,6 +4,9 @@
     /* --primary-color:#0d1b2a;
     --secondary-color:#fdfffc; */
 /* } */
+*{
+    font-family:"Source Code Pro","Roboto","Poppins" ;
+}
 body{
     margin-top:70px ;
     /* color:var(--primary-color); */
@@ -11,9 +14,15 @@ body{
     font-family:Noto Sans Arabic,Montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     direction: rtl;
+     color:#2E6F40;
+    background-color:#edece7 ;
+}
+.card{
+      color:#2E6F40;
+    background-color:#edece7 ;
 }
 #major1{
-    font-family:Montserrat,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:"Source Code Pro","Roboto","Poppins" ;
 
 }
 /* #icon{
