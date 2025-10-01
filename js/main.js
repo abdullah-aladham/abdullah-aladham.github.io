@@ -2,6 +2,7 @@ const html= document.getElementById("htmlPage");
 const body=document.getElementById("body");
 const navbar=document.getElementById("navbar")
 const checkbox = document.getElementById("checkbox");
+const card=document.getElementsByClassName('card');
 
 checkbox.addEventListener("change",()=>{
     if(checkbox.checked){
@@ -13,6 +14,8 @@ checkbox.addEventListener("change",()=>{
     body.style.color="#5D9D61";
     // navbar.style.color="#5D9D61";
     // navbar.setAttribute("color","#5D9D61");
+    // card.style.color=""
+
     }else {
         html.setAttribute("data-bs-theme","light");
         navbar.setAttribute("class","navbar navbar-expand-lg fixed-top navbar-light bg-light");
