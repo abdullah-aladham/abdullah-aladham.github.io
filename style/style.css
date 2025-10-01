@@ -83,10 +83,10 @@ width: 700px;
     max-width: 24px;
     max-height: 24px;
 }
-.card ,.card-body,.card-footer,.card-title,.card-subtitle{
+/* .card ,.card-body,.card-footer,.card-title,.card-subtitle{
      color:#2E6F40;
     background-color:#edece7 ;
-}
+} */
 @media (max-width:400px) {
     body{
         font-size:12px;
