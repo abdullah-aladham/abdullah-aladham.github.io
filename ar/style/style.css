@@ -17,8 +17,12 @@ body{
      color:#2E6F40;
     background-color:#edece7 ;
 }
-.card{
+/* .card{
       color:#2E6F40;
+    background-color:#edece7 ;
+} */
+.card ,.card-body,.card-footer,.card-title,.card-subtitle{
+     color:#2E6F40;
     background-color:#edece7 ;
 }
 #major1{
